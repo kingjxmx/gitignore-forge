@@ -1,0 +1,33 @@
+{
+  "name": "gitignore-forge",
+  "version": "1.0.0",
+  "description": "A smart .gitignore generator that detects your stack and merges community templates automatically.",
+  "main": "src/gitignore-forge.js",
+  "type": "commonjs",
+  "bin": {
+    "gitignore-forge": "src/gitignore-forge.js"
+  },
+  "scripts": {
+    "start": "node src/gitignore-forge.js",
+    "test": "node --test test/ || echo 'no tests yet \u2014 add some in test/'",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js --roadmap",
+    "setup": "bash scripts/setup.sh"
+  },
+  "keywords": [
+    "gitignore",
+    "generator",
+    "cli",
+    "templates",
+    "stack-detection"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OWNER/gitignore-forge.git"
+  },
+  "author": ""
+}
